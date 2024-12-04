@@ -12,6 +12,7 @@ import { Bounded } from "@/components/Bounded";
 import Button from "@/components/Button";
 import { TextSplitter } from "@/components/TextSplitter";
 import Scene from "./Scene";
+import { Bubbles } from "./Bubbles";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -87,6 +88,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
     >
       <View className="hero-scene pointer-events-none sticky top-0 z-50 -mt-[100vh] hidden h-screen w-screen md:block">
         <Scene />
+        <Bubbles count={500} speed={2} repeat={true} />
       </View>
 
       <div className="grid">

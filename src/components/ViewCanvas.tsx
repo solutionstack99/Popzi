@@ -1,9 +1,7 @@
 "use client";
 
-import { Environment } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
-import FloatingCan from "@/components/FloatingCan";
 import { View } from "@react-three/drei";
 
 type Props = {};

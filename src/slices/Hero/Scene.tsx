@@ -141,6 +141,8 @@ export default function Scene({}: Props) {
 
       <FloatingCan ref={can5Ref} flavor="watermelon" floatSpeed={FLOAT_SPEED} />
 
+      {/* Fo debug, need to remove thge poiter event */}
+      {/* <OrbitControls /> */}
       <Environment files="/hdr/lobby.hdr" environmentIntensity={1.5} />
     </group>
   );
